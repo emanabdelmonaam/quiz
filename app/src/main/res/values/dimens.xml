@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titel_Top_button">60dp</dimen>
+    <dimen name="padding_tital">60dp</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="padding_tital_left_right">5dp</dimen>
+
+    <dimen name="padding_tital_leainerlayout_left_right">10dp</dimen>
+    <dimen name="padding_question">20dp</dimen>
+    <dimen name="marginTop_question">10dp</dimen>
+    <dimen name="questionSize">20sp</dimen>
+    <dimen name="padding_answer_edit">10dp</dimen>
+
+    <dimen name="size_width_question">71dp</dimen>
+
+    <dimen name="padding_rediogroup_left_right">10dp</dimen>
+    <dimen name="layout_margin_bottom">20dp</dimen>
+    <dimen name="layout_margin">5dp</dimen>
+
+
+    <dimen name="layout_margin_t">5dp</dimen>
+    <dimen name="layout_margin_b">5dp</dimen>
+    <dimen name="layout_margin_r">5dp</dimen>
+    <dimen name="layout_margin_l">5dp</dimen>
+
+    <dimen name="layout_margin_button_final_button">25dp</dimen>
+
+    <dimen name="text_submeted">30dp</dimen>
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">quiz1</string>
+    <string name="submit">Resolt</string>
+    <string name="reset">Reset</string>
+    <string name="result">wow</string>
+    <string name="SendToEMail">Send it To My Email</string>
+    <string name="thank_you">thank you for Your Answer</string>
+
+    <string name="quiz">Children knowledge about Seasons Quiz</string>
+    <string name="fire">Fair</string>
+    <string name="sun">Sun</string>
+    <string name="water">Water</string>
+
+    <string name="wenter">winter</string>
+    <string name="summer">summer</string>
+    <string name="spring">spring</string>
+    <string name="automn">Autumn</string>
+    <string name="well_don">Well Don</string>
+
+    <string name="gloves">Gloves</string>
+    <string name="slippers">Slippers</string>
+    <string name="scarf">Scarf</string>
+    <string name="coat">Coat</string>
+    <string name="hints">The Answer</string>
+
+    <string name="quistion_one_ans"> 1- We wear sun glasses to protect our eyes from_________</string>
+    <string name="quistion_two_ans"> 2- What do we wear in the winter?</string>
+    <string name="quistion_three_ans"> 3- Which season we do swim in? </string>
+    <string name="quistion_four_ans"> 4- Which season d the leaves of the tree fall?  </string>
+    <string name="quistion_five_ans"> 5- When does the snowfall?</string>
+    <string name="quistion_six_ans"> 6- Alaska is very ? </string>
+    <string name="text_submet"> 0 </string>
+
+    <string name="hot"> Hot </string>
+    <string name="warm"> Warm </string>
+    <string name="cold"> Cold </string>
+    <string name="qustion_stail">
+
+
+
+
+
+
+
+    </string>
+</resources>

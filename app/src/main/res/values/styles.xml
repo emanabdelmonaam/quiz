@@ -1,0 +1,145 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mTopic</item>
+        <item name="colorPrimaryDark">@color/mTopic</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="title_quiz">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/quiz</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/seasonsss</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/titel_Top_button</item>
+        <item name="android:paddingBottom">@dimen/titel_Top_button</item>
+        <item name="android:paddingLeft">@dimen/padding_tital_left_right</item>
+        <item name="android:paddingRight">@dimen/padding_tital_left_right</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mqustion</item></style>
+
+    <style name="title_linearquistion">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:orientation"> vertical</item>
+        <item name="android:paddingRight">@dimen/padding_tital_leainerlayout_left_right</item>
+        <item name="android:paddingLeft"> @dimen/padding_tital_leainerlayout_left_right</item>
+        <item name="android:textStyle">bold </item>
+    </style>
+
+    <style name="titel_qustion">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:background"> @color/qustion</item>
+        <item name="android:padding">@dimen/padding_question</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textStyle">bold </item>
+    </style>
+
+    <style name="redio_group_answer">
+        <item name="android:layout_width"> wrap_content</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:orientation"> vertical</item>
+        <item name="android:paddingLeft">@dimen/padding_rediogroup_left_right</item>
+        <item name="android:paddingRight">@dimen/padding_rediogroup_left_right </item>
+    </style>
+
+    <style name="answer_quistion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="answer_quistion_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:hint">@string/hints</item>
+        <item name="android:padding">@dimen/padding_answer_edit</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_bottom</item>
+
+    </style>
+
+    <style name="relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:layout_marginTop">@dimen/marginTop_question</item>
+    </style>
+
+    <style name="bosh_to_the_submet_botton">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:background"> @color/mTopic</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_t</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_l</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_r</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_b</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:text">@string/submit</item>
+
+    </style>
+
+    <style name="show_text0_botton">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_t</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_l</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_r</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_b</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:text">@string/submit</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    
+    <style name="bosh_button_Reset">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:background"> @color/mTopic</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_t</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_l</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_r</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_b</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:text">@string/reset</item>
+        <item name="android:textColor">@color/mqustion</item>
+
+        </style>
+
+    <style name="bosh_button_send">
+
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:background"> @color/mTopic</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_button_final_button</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_t</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_l</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_r</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:text">@string/SendToEMail</item>
+           </style>
+
+
+
+
+
+</resources>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/sskyc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/title_quiz"
+            android:fontFamily="sans-serif-light" />
+
+        <RelativeLayout style="@style/relative_layout">
+
+            <LinearLayout style="@style/title_linearquistion">
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_one_ans"
+                   />
+
+
+                <RadioGroup
+                    android:id="@+id/number_0ne"
+                    style="@style/redio_group_answer"
+                    android:fontFamily="sans-serif-light">
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu1_two"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/fire" />
+
+                    <RadioButton
+
+                        android:id="@+id/redio_botton_qu2_two"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/sun" />
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu3_two"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/water" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/relative_layout">
+
+            <LinearLayout style="@style/title_linearquistion">
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_two_ans" />
+
+                <RelativeLayout style="@style/relative_layout">
+
+                    <LinearLayout style="@style/title_linearquistion">
+
+                        <CheckBox
+                            android:id="@+id/checbox_qu1_three"
+                            style="@style/answer_quistion"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/gloves" />
+
+                        <CheckBox
+                            android:id="@+id/checbox_qu2_three"
+                            style="@style/answer_quistion"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/slippers" />
+
+                        <CheckBox
+                            android:id="@+id/checbox_qu3_three"
+                            style="@style/answer_quistion"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/scarf" />
+
+                        <CheckBox
+                            android:id="@+id/checbox_qu4_three"
+                            style="@style/answer_quistion"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/coat" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_three_ans"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_qu1_four"
+                    style="@style/answer_quistion_text" />
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_four_ans" />
+
+                <EditText
+                    android:id="@+id/edit_qu1_five"
+                    style="@style/answer_quistion_text"
+                    android:fontFamily="sans-serif-light" />
+
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_five_ans" />
+
+                <RadioGroup
+                    android:id="@+id/number_five"
+                    style="@style/redio_group_answer"
+                    android:fontFamily="sans-serif-light">
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu1_one"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/summer" />
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu2_one"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/automn" />
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu3_one"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/wenter" />
+                </RadioGroup>
+
+
+                <TextView
+                    style="@style/titel_qustion"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/quistion_six_ans" />
+
+                <RadioGroup
+                    android:id="@+id/number_six"
+                    style="@style/redio_group_answer"
+                    android:fontFamily="sans-serif-light">
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu1_six"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/warm" />
+                    />
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu2_six"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/cold" />
+
+                    <RadioButton
+                        android:id="@+id/redio_botton_qu3_six"
+                        style="@style/answer_quistion"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/hot" />
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    style="@style/bosh_to_the_submet_botton"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:onClick="submitScore"
+
+                    />
+
+                <TextView
+                    android:id="@+id/scoreNumber"
+                    style="@style/show_text0_botton"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/buttonReset"
+                    style="@style/bosh_button_Reset"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:onClick="resetZeroForeQuiz" />
+
+                <Button
+                    android:id="@+id/button_send_to_my_email"
+                    style="@style/bosh_button_send"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:onClick="Sendtomyemail" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
