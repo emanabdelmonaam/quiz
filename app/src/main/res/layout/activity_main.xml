@@ -10,206 +10,141 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-
         <TextView
             style="@style/title_quiz"
             android:fontFamily="sans-serif-light" />
 
         <RelativeLayout style="@style/relative_layout">
-
             <LinearLayout style="@style/title_linearquistion">
-
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_one_ans"
-                   />
-
-
+                    style="@style/titel_qustion1"
+                    android:fontFamily="sans-serif-light"/>
                 <RadioGroup
                     android:id="@+id/number_0ne"
                     style="@style/redio_group_answer"
                     android:fontFamily="sans-serif-light">
-
                     <RadioButton
                         android:id="@+id/redio_botton_qu1_two"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/fire" />
-
+                        style="@style/answer_quistion1_1"
+                        android:fontFamily="sans-serif-light"/>
                     <RadioButton
-
                         android:id="@+id/redio_botton_qu2_two"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/sun" />
-
+                        style="@style/answer_quistion1_2"
+                        android:fontFamily="sans-serif-light"/>
                     <RadioButton
                         android:id="@+id/redio_botton_qu3_two"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/water" />
-
+                        style="@style/answer_quistion1_3"
+                        android:fontFamily="sans-serif-light"/>
                 </RadioGroup>
-
             </LinearLayout>
-
         </RelativeLayout>
 
         <RelativeLayout style="@style/relative_layout">
-
             <LinearLayout style="@style/title_linearquistion">
-
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_two_ans" />
-
+                    style="@style/titel_qustion2"
+                    android:fontFamily="sans-serif-light"/>
                 <RelativeLayout style="@style/relative_layout">
-
                     <LinearLayout style="@style/title_linearquistion">
-
                         <CheckBox
                             android:id="@+id/checbox_qu1_three"
-                            style="@style/answer_quistion"
-                            android:fontFamily="sans-serif-light"
-                            android:text="@string/gloves" />
-
+                            style="@style/answer_quistion2_1"
+                            android:fontFamily="sans-serif-light"/>
                         <CheckBox
                             android:id="@+id/checbox_qu2_three"
-                            style="@style/answer_quistion"
-                            android:fontFamily="sans-serif-light"
-                            android:text="@string/slippers" />
-
+                            style="@style/answer_quistion2_2"
+                            android:fontFamily="sans-serif-light"/>
                         <CheckBox
                             android:id="@+id/checbox_qu3_three"
-                            style="@style/answer_quistion"
+                            style="@style/answer_quistion2_3"
                             android:fontFamily="sans-serif-light"
-                            android:text="@string/scarf" />
-
+                            android:text="@string/scarf"/>
                         <CheckBox
                             android:id="@+id/checbox_qu4_three"
-                            style="@style/answer_quistion"
-                            android:fontFamily="sans-serif-light"
-                            android:text="@string/coat" />
+                            style="@style/answer_quistion2_4"
+                            android:fontFamily="sans-serif-light"/>
                     </LinearLayout>
-
                 </RelativeLayout>
 
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_three_ans"
-                    android:textStyle="bold" />
-
+                    style="@style/titel_qustion3"
+                    android:fontFamily="sans-serif-light"/>
                 <EditText
                     android:id="@+id/edit_qu1_four"
-                    style="@style/answer_quistion_text" />
-
+                    style="@style/answer_quistion_text"/>
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_four_ans" />
-
+                    style="@style/titel_qustion4"
+                    android:fontFamily="sans-serif-light"/>
                 <EditText
                     android:id="@+id/edit_qu1_five"
                     style="@style/answer_quistion_text"
-                    android:fontFamily="sans-serif-light" />
-
+                    android:fontFamily="sans-serif-light"/>
 
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_five_ans" />
-
+                    style="@style/titel_qustion5"
+                    android:fontFamily="sans-serif-light"/>
                 <RadioGroup
                     android:id="@+id/number_five"
                     style="@style/redio_group_answer"
                     android:fontFamily="sans-serif-light">
-
                     <RadioButton
                         android:id="@+id/redio_botton_qu1_one"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/summer" />
+                        style="@style/answer_quistion5_1"
+                        android:fontFamily="sans-serif-light"/>
 
                     <RadioButton
                         android:id="@+id/redio_botton_qu2_one"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/automn" />
-
+                        style="@style/answer_quistion5_2"
+                        android:fontFamily="sans-serif-light"/>
                     <RadioButton
                         android:id="@+id/redio_botton_qu3_one"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/wenter" />
+                        style="@style/answer_quistion5_3"
+                        android:fontFamily="sans-serif-light"/>
                 </RadioGroup>
 
-
                 <TextView
-                    style="@style/titel_qustion"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/quistion_six_ans" />
-
+                    style="@style/titel_qustion6"
+                    android:fontFamily="sans-serif-light"/>
                 <RadioGroup
                     android:id="@+id/number_six"
                     style="@style/redio_group_answer"
                     android:fontFamily="sans-serif-light">
-
                     <RadioButton
                         android:id="@+id/redio_botton_qu1_six"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/warm" />
-                    />
-
+                        style="@style/answer_quistion6_1"
+                        android:fontFamily="sans-serif-light"/>
                     <RadioButton
                         android:id="@+id/redio_botton_qu2_six"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/cold" />
-
+                        style="@style/answer_quistion6_2"
+                        android:fontFamily="sans-serif-light"/>
                     <RadioButton
                         android:id="@+id/redio_botton_qu3_six"
-                        style="@style/answer_quistion"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/hot" />
-
+                        style="@style/answer_quistion6_3"
+                        android:fontFamily="sans-serif-light"/>
                 </RadioGroup>
 
                 <Button
                     android:id="@+id/buttonSubmit"
                     style="@style/bosh_to_the_submet_botton"
                     android:fontFamily="sans-serif-smallcaps"
-                    android:onClick="submitScore"
-
-                    />
+                    android:onClick="submitScore"/>
 
                 <TextView
                     android:id="@+id/scoreNumber"
                     style="@style/show_text0_botton"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:text="0" />
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <Button
                     android:id="@+id/buttonReset"
                     style="@style/bosh_button_Reset"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:onClick="resetZeroForeQuiz" />
+                    android:fontFamily="sans-serif-smallcaps"/>
 
                 <Button
                     android:id="@+id/button_send_to_my_email"
                     style="@style/bosh_button_send"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:onClick="Sendtomyemail" />
-
+                    android:fontFamily="sans-serif-smallcaps"/>
 
             </LinearLayout>
-
         </RelativeLayout>
-
     </LinearLayout>
-
 </ScrollView>
