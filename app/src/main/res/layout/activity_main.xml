@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:background="@drawable/sskyc"
-    android:orientation="vertical">
-
+   style="@style/ScrollView_O">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+      style="@style/LinearLayoutO_One">
         <TextView
             style="@style/title_quiz"
             android:fontFamily="sans-serif-light" />
-
         <RelativeLayout style="@style/relative_layout">
             <LinearLayout style="@style/title_linearquistion">
                 <TextView
@@ -38,7 +30,6 @@
                 </RadioGroup>
             </LinearLayout>
         </RelativeLayout>
-
         <RelativeLayout style="@style/relative_layout">
             <LinearLayout style="@style/title_linearquistion">
                 <TextView
@@ -65,7 +56,6 @@
                             android:fontFamily="sans-serif-light"/>
                     </LinearLayout>
                 </RelativeLayout>
-
                 <TextView
                     style="@style/titel_qustion3"
                     android:fontFamily="sans-serif-light"/>
@@ -79,7 +69,6 @@
                     android:id="@+id/edit_qu1_five"
                     style="@style/answer_quistion_text"
                     android:fontFamily="sans-serif-light"/>
-
                 <TextView
                     style="@style/titel_qustion5"
                     android:fontFamily="sans-serif-light"/>
@@ -101,7 +90,6 @@
                         style="@style/answer_quistion5_3"
                         android:fontFamily="sans-serif-light"/>
                 </RadioGroup>
-
                 <TextView
                     style="@style/titel_qustion6"
                     android:fontFamily="sans-serif-light"/>
@@ -122,28 +110,23 @@
                         style="@style/answer_quistion6_3"
                         android:fontFamily="sans-serif-light"/>
                 </RadioGroup>
-
                 <Button
                     android:id="@+id/buttonSubmit"
-                    style="@style/bosh_to_the_submet_botton"
+                    style="@style/bosh_to_the_submit_button"
                     android:fontFamily="sans-serif-smallcaps"
                     android:onClick="submitScore"/>
-
                 <TextView
                     android:id="@+id/scoreNumber"
-                    style="@style/show_text0_botton"
+                    style="@style/show_text0_button"
                     android:fontFamily="sans-serif-smallcaps"/>
-
                 <Button
                     android:id="@+id/buttonReset"
                     style="@style/bosh_button_Reset"
                     android:fontFamily="sans-serif-smallcaps"/>
-
                 <Button
                     android:id="@+id/button_send_to_my_email"
                     style="@style/bosh_button_send"
                     android:fontFamily="sans-serif-smallcaps"/>
-
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>

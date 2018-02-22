@@ -4,7 +4,18 @@
         <item name="colorPrimaryDark">@color/mTopic</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="ScrollView_O">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/sskyc</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="LinearLayoutO_One">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
     <style name="title_quiz">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -12,149 +23,134 @@
         <item name="android:scaleType">centerCrop</item>
         <item name="android:background">@drawable/seasonsss</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:paddingTop">@dimen/titel_Top_button</item>
-        <item name="android:paddingBottom">@dimen/titel_Top_button</item>
-        <item name="android:paddingLeft">@dimen/padding_tital_left_right</item>
-        <item name="android:paddingRight">@dimen/padding_tital_left_right</item>
+        <item name="android:paddingTop">@dimen/title_Top_button</item>
+        <item name="android:paddingBottom">@dimen/title_Top_button</item>
+        <item name="android:paddingLeft">@dimen/padding_title_left_right</item>
+        <item name="android:paddingRight">@dimen/padding_title_left_right</item>
         <item name="android:textSize">@dimen/title_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/mqustion</item></style>
-
+        <item name="android:textColor">@color/mQuestion</item>
+    </style>
     <style name="title_linearquistion">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
         <item name="android:orientation"> vertical</item>
-        <item name="android:paddingRight">@dimen/padding_tital_leainerlayout_left_right</item>
-        <item name="android:paddingLeft"> @dimen/padding_tital_leainerlayout_left_right</item>
+        <item name="android:paddingRight">@dimen/padding_title_linerLayout_left_right</item>
+        <item name="android:paddingLeft"> @dimen/padding_title_linerLayout_left_right</item>
         <item name="android:textStyle">bold </item>
     </style>
-
     <style name="titel_qustion1">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:text">@string/quistion_one_ans</item>
+        <item name="android:text">@string/question_one_ans</item>
     </style>
-
     <style name="titel_qustion2">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:text">@string/quistion_two_ans</item>
+        <item name="android:text">@string/question_two_ans</item>
     </style>
-
     <style name="titel_qustion3">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:text">@string/quistion_three_ans</item>
+        <item name="android:text">@string/question_three_ans</item>
     </style>
-
     <style name="titel_qustion4">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:text">@string/quistion_four_ans</item>
+        <item name="android:text">@string/question_four_ans</item>
     </style>
-
     <style name="titel_qustion5">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:text">@string/quistion_five_ans</item>
+        <item name="android:text">@string/question_five_ans</item>
     </style>
-
     <style name="titel_qustion6">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
-        <item name="android:background"> @color/qustion</item>
+        <item name="android:background"> @color/question</item>
         <item name="android:padding">@dimen/padding_question</item>
         <item name="android:textSize">@dimen/questionSize</item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:text">@string/quistion_six_ans</item>
+        <item name="android:text">@string/question_six_ans</item>
     </style>
-
     <style name="redio_group_answer">
         <item name="android:layout_width"> wrap_content</item>
         <item name="android:layout_height"> wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold </item>
         <item name="android:orientation"> vertical</item>
-        <item name="android:paddingLeft">@dimen/padding_rediogroup_left_right</item>
-        <item name="android:paddingRight">@dimen/padding_rediogroup_left_right </item>
+        <item name="android:paddingLeft">@dimen/padding_radioGroup_left_right</item>
+        <item name="android:paddingRight">@dimen/padding_radioGroup_left_right </item>
     </style>
-
     <style name="answer_quistion1_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/fire</item>
     </style>
-
     <style name="answer_quistion1_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/sun</item>
     </style>
-
     <style name="answer_quistion1_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/water</item>
     </style>
-
     <style name="answer_quistion2_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/gloves</item>
     </style>
-
     <style name="answer_quistion2_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/slippers</item>
     </style>
-
     <style name="answer_quistion2_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/scarf</item>
     </style>
-
     <style name="answer_quistion2_4">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/coat</item>
     </style>
-
     <style name="answer_quistion5_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -173,14 +169,12 @@
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/wenter</item>
     </style>
-
     <style name="answer_quistion6_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/warm</item>
     </style>
-
     <style name="answer_quistion6_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -193,7 +187,6 @@
         <item name="android:textSize">15sp</item>
         <item name="android:text">@string/hot</item>
     </style>
-
     <style name="answer_quistion_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -204,7 +197,6 @@
         <item name="android:padding">@dimen/padding_answer_edit</item>
         <item name="android:layout_marginBottom">@dimen/layout_margin_bottom</item>
     </style>
-
     <style name="relative_layout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -212,8 +204,7 @@
         <item name="android:textStyle">bold </item>
         <item name="android:layout_marginTop">@dimen/marginTop_question</item>
     </style>
-
-    <style name="bosh_to_the_submet_botton">
+    <style name="bosh_to_the_submit_button">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
         <item name="android:background"> @color/mTopic</item>
@@ -223,13 +214,11 @@
         <item name="android:layout_marginBottom">@dimen/layout_margin_b</item>
         <item name="android:textSize">@dimen/questionSize</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:text">@string/submit</item>
         <item name="android:onClick">@string/onclickSubmit</item>
-
     </style>
-
-    <style name="show_text0_botton">
+    <style name="show_text0_button">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
         <item name="android:layout_marginTop">@dimen/layout_margin_t</item>
@@ -239,10 +228,9 @@
         <item name="android:textSize">@dimen/questionSize</item>
         <item name="android:textStyle">bold </item>
         <item name="android:layout_margin">@dimen/layout_margin</item>
-        <item name="android:text">@string/text_submet</item>
+        <item name="android:text">@string/text_submit</item>
         <item name="android:gravity">center</item>
     </style>
-    
     <style name="bosh_button_Reset">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
@@ -254,10 +242,9 @@
         <item name="android:textSize">@dimen/questionSize</item>
         <item name="android:textStyle">bold </item>
         <item name="android:text">@string/reset</item>
-        <item name="android:textColor">@color/mqustion</item>
-        <item name="android:onClick">@string/onclickreset</item>
+        <item name="android:textColor">@color/mQuestion</item>
+        <item name="android:onClick">@string/onclickReset</item>
     </style>
-
     <style name="bosh_button_send">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
@@ -268,7 +255,7 @@
         <item name="android:layout_marginRight">@dimen/layout_margin_r</item>
         <item name="android:textSize">@dimen/questionSize</item>
         <item name="android:textStyle">bold </item>
-        <item name="android:textColor">@color/mqustion</item>
+        <item name="android:textColor">@color/mQuestion</item>
         <item name="android:text">@string/SendToEMail</item>
         <item name="android:onClick">@string/onclickSend</item>
     </style>

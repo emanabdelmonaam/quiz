@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorButton">#2196F3</color>
-    <color name="qustion">#42A5F5</color>
+    <color name="question">#42A5F5</color>
     <color name="mTopic">#0D47A1 </color>
-    <color name="mqustion">#000000 </color>
+    <color name="mQuestion">#000000 </color>
 </resources>

@@ -19,18 +19,18 @@
     <string name="scarf">Scarf</string>
     <string name="coat">Coat</string>
     <string name="hints">The Answer</string>
-    <string name="quistion_one_ans"> 1- We wear sun glasses to protect our eyes from_________</string>
-    <string name="quistion_two_ans"> 2- What do we wear in the winter?</string>
-    <string name="quistion_three_ans"> 3- Which season we do swim in? </string>
-    <string name="quistion_four_ans"> 4- Which season d the leaves of the tree fall?  </string>
-    <string name="quistion_five_ans"> 5- When does the snowfall?</string>
-    <string name="quistion_six_ans"> 6- Alaska is very ? </string>
-    <string name="text_submet"> 0 </string>
+    <string name="question_one_ans"> 1- We wear sun glasses to protect our eyes from_________</string>
+    <string name="question_two_ans"> 2- What do we wear in the winter?</string>
+    <string name="question_three_ans"> 3- Which season we do swim in? </string>
+    <string name="question_four_ans"> 4- which season does leaves of the tree fall?  </string>
+    <string name="question_five_ans"> 5- When does the snowfall?</string>
+    <string name="question_six_ans"> 6- Alaska is very ? </string>
+    <string name="text_submit"> 0 </string>
     <string name="hot"> Hot </string>
     <string name="warm"> Warm </string>
     <string name="cold"> Cold </string>
-    <string name="qustion_stail"> </string>
+    <string name="question_stail"> </string>
     <string name="onclickSubmit">submitScore</string>
-    <string name="onclickreset">resetZeroForeQuiz</string>
+    <string name="onclickReset">resetZeroForeQuiz</string>
     <string name="onclickSend">Sendtomyemail</string>
 </resources>
