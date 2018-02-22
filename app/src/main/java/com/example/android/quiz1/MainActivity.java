@@ -1,7 +1,4 @@
-
 package com.example.android.quiz1;
-
-
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -14,10 +11,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-
 public class MainActivity extends AppCompatActivity {
-
     public RadioGroup number_0ne, number_five, number_six;
     public int score;
     public boolean resultNumberSubmited;
@@ -41,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
         resultNumberSubmited = false;
         score = 0;
         again();}
-
-
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
@@ -50,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         finalScore(resultNumberSubmited);
         if (resultNumberSubmited)
             finalScore(resultNumberSubmited);}
-
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState){
 
