@@ -193,22 +193,28 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
 //Redio_Button_one
         number_0ne.clearCheck();
+
         for (int i = 0; i < number_0ne.getChildCount(); i++)
             number_0ne.getChildAt(i).setEnabled(true);
+
         //two
         number_five.clearCheck();
         for (int i = 0; i < number_five.getChildCount(); i++)
             number_five.getChildAt(i).setEnabled(true);
+
         //three
         number_six.clearCheck();
         for (int i = 0; i < number_six.getChildCount(); i++)
             number_six.getChildAt(i).setEnabled(true);
-//edit_Text_one
+
+       //edit_Text_one
         edit_qu1_four.setEnabled(true);
         edit_qu1_four.setText("");
+
         //two
         edit_qu1_five.setEnabled(true);
         edit_qu1_five.setText("");
+
 //////ChecBox
         checbox_qu1_three.setEnabled(true);
         checbox_qu3_three.setEnabled(true);
@@ -243,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
         buttonReset = (Button) findViewById(R.id.buttonReset);
         buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -254,7 +261,9 @@ public class MainActivity extends AppCompatActivity {
 
         Sendtomyemail = (Button) findViewById(R.id.button_send_to_my_email);
         Sendtomyemail.setOnClickListener(new View.OnClickListener() {
+
             @Override
+            
             public void onClick(View v) {
                 sendToMyEmail();
             }
