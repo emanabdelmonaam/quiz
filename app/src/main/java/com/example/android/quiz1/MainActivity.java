@@ -46,7 +46,9 @@ public class MainActivity extends AppCompatActivity {
         finalScore(resultNumberSubmited);
 
         if (resultNumberSubmited)
+        {
             finalScore(resultNumberSubmited);
+        }
     }
 
     @Override
@@ -89,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
         //answer RadioButton three
         RadioButton checkedRadioButton3 = (RadioButton) findViewById(R.id.redio_botton_qu2_six);
         boolean hascheckedRadioButton3 = checkedRadioButton3.isChecked();
+
         if (hascheckedRadioButton3) {
             score++;
         }
@@ -100,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         // answer one CheckBox
         CheckBox checkedQui1 = (CheckBox) findViewById(R.id.checbox_qu1_three);
         boolean hascheckedQui1 = checkedQui1.isChecked();
+
         if (hascheckedQui1) {
             score++;
         }
@@ -145,7 +149,9 @@ public class MainActivity extends AppCompatActivity {
 
         EditText qustionFive = (EditText) findViewById(R.id.edit_qu1_five);
         String answerFive = qustionFive.getText().toString();
-        if (answerFive.equals("Autumn")) {
+
+        if (answerFive.equals("Autumn"))
+        {
             score++;
         } else if (answerFive.equals("Autumn ")) {
             score++;
