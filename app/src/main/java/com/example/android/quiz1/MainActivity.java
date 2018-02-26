@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public RadioButton redio_botton_qu1_one, redio_botton_qu2_one, redio_botton_qu3_one;
     public RadioButton redio_botton_qu1_six, redio_botton_qu2_six, redio_botton_qu3_six;
     public Button buttonSubmit, buttonReset, Sendtomyemail;
+
     static final String result_Number_Submited = "score";
 
     @Override
@@ -31,38 +32,49 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         resultNumberSubmited = false;
         score = 0;
-        again();}
+        again();
+    }
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
+
         score = savedInstanceState.getInt(result_Number_Submited);
         finalScore(resultNumberSubmited);
+
         if (resultNumberSubmited)
-            finalScore(resultNumberSubmited);}
+            finalScore(resultNumberSubmited);
+    }
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState){
         savedInstanceState.putInt(result_Number_Submited, score);
-        super.onSaveInstanceState(savedInstanceState);}
+        super.onSaveInstanceState(savedInstanceState);
+    }
 
     public void finalScore(boolean flag) {
         resultNumberSubmited = true;
         resultNumberSubmited = false;
         score = 0;
+
         // Redio Button question
         //answer RadioButton one
         RadioButton checkedRadioButton1 = (RadioButton) findViewById(R.id.redio_botton_qu2_two);
         boolean hascheckedRadioButton1 = checkedRadioButton1.isChecked();
         if (hascheckedRadioButton1){
-            score = score + 1;}
+            score++;
+        }
+
         redio_botton_qu2_two.setEnabled(false);
         redio_botton_qu1_two.setEnabled(false);
         redio_botton_qu3_two.setEnabled(false);
 
         ///////answer RadioButton two
+
         RadioButton checkedRadioButton2 = (RadioButton) findViewById(R.id.redio_botton_qu3_one);
         boolean hascheckedRadioButton2 = checkedRadioButton2.isChecked();
+
         if (hascheckedRadioButton2){
-            score = score + 1;}
+            score++;
+        }
         redio_botton_qu3_one.setEnabled(false);
         redio_botton_qu1_one.setEnabled(false);
         redio_botton_qu2_one.setEnabled(false);
@@ -71,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
         RadioButton checkedRadioButton3 = (RadioButton) findViewById(R.id.redio_botton_qu2_six);
         boolean hascheckedRadioButton3 = checkedRadioButton3.isChecked();
         if (hascheckedRadioButton3){
-            score = score + 1;}
+            score++;
+        }
         redio_botton_qu2_six.setEnabled(false);
         redio_botton_qu3_six.setEnabled(false);
         redio_botton_qu1_six.setEnabled(false);
@@ -81,19 +94,24 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkedQui1 = (CheckBox) findViewById(R.id.checbox_qu1_three);
         boolean hascheckedQui1 = checkedQui1.isChecked();
         if (hascheckedQui1){
-            score = score + 1;}
-
-        // answer two CheckBox
-        CheckBox checkedQui3 = (CheckBox) findViewById(R.id.checbox_qu3_three);
-        boolean hascheckedQui3 = checkedQui3.isChecked();
-        if (hascheckedQui3){
-            score = score + 1;}
+            score++;
+        }
 
         // answer three CheckBox
+        CheckBox checkedQui3 = (CheckBox) findViewById(R.id.checbox_qu3_three);
+        boolean hascheckedQui3 = checkedQui3.isChecked();
+
+        if (hascheckedQui3){
+            score++;
+        }
+
+        // answer four CheckBox
         CheckBox checkedQui4 = (CheckBox) findViewById(R.id.checbox_qu4_three);
         boolean hascheckedQui4 = checkedQui4.isChecked();
+
         if (hascheckedQui4){
-            score = score + 1;}
+            score++;
+        }
 
         checbox_qu1_three.setEnabled(false);
         checbox_qu2_three.setEnabled(false);
@@ -103,35 +121,41 @@ public class MainActivity extends AppCompatActivity {
         //one
         EditText qustionFour = (EditText) findViewById(R.id.edit_qu1_four);
         String answerFour = qustionFour.getText().toString();
+
         if (answerFour.equals("Summer")) {
-            score = score + 1;}
-            else if (answerFour.equals("Summer ")) {
-            score = score + 1;}
-           else if (answerFour.equals("summer ")) {
-            score = score + 1;}
-           else if (answerFour.equals("summer")) {
-            score = score + 1;}
+
+            score++;
+        }else if (answerFour.equals("Summer ")) {
+
+            score++;
+        }else if (answerFour.equals("summer ")) {
+            score++;
+        }else if (answerFour.equals("summer")) {
+            score++;
+        }
 
         edit_qu1_four.setEnabled(false);
 
         EditText qustionFive = (EditText) findViewById(R.id.edit_qu1_five);
         String answerFive = qustionFive.getText().toString();
         if (answerFive.equals("Autumn")){
-            score = score + 1;}
-        if (answerFive.equals("Autumn ")){
-            score = score + 1;}
-        if (answerFive.equals("autumn")){
-            score = score + 1;}
-        if (answerFive.equals("autumn ")){
-            score = score + 1;}
-        if (answerFive.equals("Fall")){
-            score = score + 1;}
-        if (answerFive.equals("Fall ")){
-            score = score + 1;}
-        if (answerFive.equals("fall")){
-            score = score + 1;}
-        if (answerFive.equals("fall ")){
-            score = score + 1;}
+            score++;
+        } else if (answerFive.equals("Autumn ")){
+            score++;
+        }else if (answerFive.equals("autumn")){
+            score++;
+        }else if (answerFive.equals("autumn ")){
+            score++;
+        }else if (answerFive.equals("Fall")){
+            score++;
+        }else if (answerFive.equals("Fall ")){
+            score++;
+        }else if (answerFive.equals("fall")){
+            score++;
+        }else if (answerFive.equals("fall ")){
+            score++;
+        }
+
         edit_qu1_five.setEnabled(false);
 
         setScore();
@@ -141,7 +165,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void setScore() {
         TextView score = (TextView) findViewById(R.id.scoreNumber);
-        score.setText("" + this.score + "");}
+        score.setText("" + this.score + "");
+    }
 
     //reset Quiz from 0
     public void reset(){
@@ -180,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
         checbox_qu4_three.setChecked(false);}
 
     //to sent the final score to my mail
-    public void Sendtomyemail(){
+    public void sendToMyEmail(){
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto: "));// this for only email app
@@ -188,7 +213,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_TEXT, resultNumberSubmited);
 
         if (intent.resolveActivity(getPackageManager()) != null) ;
-        startActivity(intent);}
+        startActivity(intent);
+    }
 
     private void again() {
 
@@ -208,14 +234,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 ////////
+
         Sendtomyemail = (Button) findViewById(R.id.button_send_to_my_email);
         Sendtomyemail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Sendtomyemail();
+                sendToMyEmail();
             }
         });
 /////////////
+
         number_0ne = (RadioGroup) findViewById(R.id.number_0ne);
         redio_botton_qu1_two = (RadioButton) findViewById(R.id.redio_botton_qu1_two);
         redio_botton_qu2_two = (RadioButton) findViewById(R.id.redio_botton_qu2_two);
@@ -238,4 +266,5 @@ public class MainActivity extends AppCompatActivity {
         redio_botton_qu1_six = (RadioButton) findViewById(R.id.redio_botton_qu1_six);
         redio_botton_qu2_six = (RadioButton) findViewById(R.id.redio_botton_qu2_six);
         redio_botton_qu3_six = (RadioButton) findViewById(R.id.redio_botton_qu3_six);
-    }}
+    }
+}

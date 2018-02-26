@@ -31,13 +31,12 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/mQuestion</item>
     </style>
-    <style name="title_linearquistion">
+    <style name="title_linearQuestion">
         <item name="android:layout_width"> match_parent</item>
         <item name="android:layout_height"> wrap_content</item>
         <item name="android:orientation"> vertical</item>
         <item name="android:paddingRight">@dimen/padding_title_linerLayout_left_right</item>
         <item name="android:paddingLeft"> @dimen/padding_title_linerLayout_left_right</item>
-        <item name="android:textStyle">bold </item>
     </style>
     <style name="titel_qustion1">
         <item name="android:layout_width"> match_parent</item>
@@ -112,85 +111,85 @@
     <style name="answer_quistion1_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/fire</item>
     </style>
     <style name="answer_quistion1_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/sun</item>
     </style>
     <style name="answer_quistion1_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/water</item>
     </style>
     <style name="answer_quistion2_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/gloves</item>
     </style>
     <style name="answer_quistion2_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/slippers</item>
     </style>
     <style name="answer_quistion2_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/scarf</item>
     </style>
     <style name="answer_quistion2_4">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/coat</item>
     </style>
     <style name="answer_quistion5_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/summer</item>
     </style>
     <style name="answer_quistion5_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/automn</item>
     </style>
     <style name="answer_quistion5_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/wenter</item>
     </style>
     <style name="answer_quistion6_1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/warm</item>
     </style>
     <style name="answer_quistion6_2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/cold</item>
     </style>
     <style name="answer_quistion6_3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:text">@string/hot</item>
     </style>
     <style name="answer_quistion_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/answer_textSize</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:textStyle">bold </item>
         <item name="android:hint">@string/hints</item>

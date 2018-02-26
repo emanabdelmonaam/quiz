@@ -7,7 +7,7 @@
             style="@style/title_quiz"
             android:fontFamily="sans-serif-light" />
         <RelativeLayout style="@style/relative_layout">
-            <LinearLayout style="@style/title_linearquistion">
+            <LinearLayout style="@style/title_linearQuestion">
                 <TextView
                     style="@style/titel_qustion1"
                     android:fontFamily="sans-serif-light"/>
@@ -31,12 +31,12 @@
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout style="@style/relative_layout">
-            <LinearLayout style="@style/title_linearquistion">
+            <LinearLayout style="@style/title_linearQuestion">
                 <TextView
                     style="@style/titel_qustion2"
                     android:fontFamily="sans-serif-light"/>
                 <RelativeLayout style="@style/relative_layout">
-                    <LinearLayout style="@style/title_linearquistion">
+                    <LinearLayout style="@style/title_linearQuestion">
                         <CheckBox
                             android:id="@+id/checbox_qu1_three"
                             style="@style/answer_quistion2_1"
