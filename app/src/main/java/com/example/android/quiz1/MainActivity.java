@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // resultNumberSubmited = false;
-        //resultNumberSubmited = true;
         score = 0;
         again(resultNumberSubmited);
     }
