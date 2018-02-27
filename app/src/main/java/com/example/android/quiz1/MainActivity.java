@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
         score = savedInstanceState.getInt(result_Number_Submited);
         finalScore(resultNumberSubmited);
 
-        if (resultNumberSubmited)
-        {
+        if (resultNumberSubmited) {
             finalScore(resultNumberSubmited);
         }
     }
@@ -84,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
         if (hascheckedRadioButton2) {
             score++;
         }
+
         redio_botton_qu3_one.setEnabled(false);
         redio_botton_qu1_one.setEnabled(false);
         redio_botton_qu2_one.setEnabled(false);
@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
         if (hascheckedRadioButton3) {
             score++;
         }
+
         redio_botton_qu2_six.setEnabled(false);
         redio_botton_qu3_six.setEnabled(false);
         redio_botton_qu1_six.setEnabled(false);
@@ -150,8 +151,7 @@ public class MainActivity extends AppCompatActivity {
         EditText qustionFive = (EditText) findViewById(R.id.edit_qu1_five);
         String answerFive = qustionFive.getText().toString();
 
-        if (answerFive.equals("Autumn"))
-        {
+        if (answerFive.equals("Autumn")) {
             score++;
         } else if (answerFive.equals("Autumn ")) {
             score++;
@@ -232,8 +232,8 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto: "));// this for only email app
-        intent.putExtra(Intent.EXTRA_SUBJECT, " congratulation" + "\n Your Score is  " + score + "\n Be Happy All Time");
-        intent.putExtra(Intent.EXTRA_TEXT, resultNumberSubmited);
+        intent.putExtra(Intent. EXTRA_SUBJECT, " congratulation" + "\n Your Score is  " + score + "\n Be Happy All Time");
+        intent.putExtra(Intent. EXTRA_TEXT, resultNumberSubmited);
 
         if (intent.resolveActivity(getPackageManager()) != null) ;
         startActivity(intent);
@@ -263,7 +263,7 @@ public class MainActivity extends AppCompatActivity {
         Sendtomyemail.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            
+
             public void onClick(View v) {
                 sendToMyEmail();
             }
