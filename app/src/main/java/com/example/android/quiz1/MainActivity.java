@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         resultNumberSubmited = false;
         score = 0;
-        again();
+        again(resultNumberSubmited);
+
     }
 
     @Override
@@ -43,17 +44,15 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
 
         score = savedInstanceState.getInt(result_Number_Submited);
-        finalScore(resultNumberSubmited);
+        again(resultNumberSubmited);
 
-        if (resultNumberSubmited) {
-            finalScore(resultNumberSubmited);
-        }
-    }
+     }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putInt(result_Number_Submited, score);
         super.onSaveInstanceState(savedInstanceState);
+
     }
 
     public void finalScore(boolean flag) {
@@ -75,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
         redio_botton_qu1_two.setEnabled(false);
         redio_botton_qu3_two.setEnabled(false);
 
+        redio_botton_qu1_two.setChecked(false);
+        redio_botton_qu3_two.setChecked(false);
+
         ///////answer RadioButton two
 
         RadioButton checkedRadioButton2 = (RadioButton) findViewById(R.id.redio_botton_qu3_one);
@@ -88,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
         redio_botton_qu1_one.setEnabled(false);
         redio_botton_qu2_one.setEnabled(false);
 
+        redio_botton_qu1_one.setChecked(false);
+        redio_botton_qu2_one.setChecked(false);
+
         //answer RadioButton three
         RadioButton checkedRadioButton3 = (RadioButton) findViewById(R.id.redio_botton_qu2_six);
         boolean hascheckedRadioButton3 = checkedRadioButton3.isChecked();
@@ -99,6 +104,9 @@ public class MainActivity extends AppCompatActivity {
         redio_botton_qu2_six.setEnabled(false);
         redio_botton_qu3_six.setEnabled(false);
         redio_botton_qu1_six.setEnabled(false);
+
+        redio_botton_qu3_six.setChecked(false);
+        redio_botton_qu1_six.setChecked(false);
 
         // ChicBox question //
         // answer one CheckBox
@@ -129,6 +137,9 @@ public class MainActivity extends AppCompatActivity {
         checbox_qu2_three.setEnabled(false);
         checbox_qu3_three.setEnabled(false);
         checbox_qu4_three.setEnabled(false);
+
+        checbox_qu2_three.setChecked(false);
+
         // EditText question
         //one
         EditText qustionFour = (EditText) findViewById(R.id.edit_qu1_four);
@@ -183,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         score.setText("" + this.score + "");
     }
 
-    //reset Quiz from 0
+    //reset Quiz to 0
     public void reset() {
 
         resultNumberSubmited = false;
@@ -239,14 +250,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void again() {
+    public void again(boolean resultNumberSubmited) {
 
         buttonSubmit = (Button) findViewById(R.id.buttonSubmit);
         buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finalScore(false);
-
             }
         });
 
@@ -257,37 +267,32 @@ public class MainActivity extends AppCompatActivity {
                 reset();
             }
         });
-////////
 
+        //send mail
         Sendtomyemail = (Button) findViewById(R.id.button_send_to_my_email);
         Sendtomyemail.setOnClickListener(new View.OnClickListener() {
 
             @Override
-
             public void onClick(View v) {
                 sendToMyEmail();
             }
         });
-/////////////
 
+        //
         number_0ne = (RadioGroup) findViewById(R.id.number_0ne);
         redio_botton_qu1_two = (RadioButton) findViewById(R.id.redio_botton_qu1_two);
         redio_botton_qu2_two = (RadioButton) findViewById(R.id.redio_botton_qu2_two);
         redio_botton_qu3_two = (RadioButton) findViewById(R.id.redio_botton_qu3_two);
-
         edit_qu1_four = (EditText) findViewById(R.id.edit_qu1_four);
         edit_qu1_five = (EditText) findViewById(R.id.edit_qu1_five);
-
         checbox_qu1_three = (CheckBox) findViewById(R.id.checbox_qu1_three);
         checbox_qu2_three = (CheckBox) findViewById(R.id.checbox_qu2_three);
         checbox_qu3_three = (CheckBox) findViewById(R.id.checbox_qu3_three);
         checbox_qu4_three = (CheckBox) findViewById(R.id.checbox_qu4_three);
-
         number_five = (RadioGroup) findViewById(R.id.number_five);
         redio_botton_qu1_one = (RadioButton) findViewById(R.id.redio_botton_qu1_one);
         redio_botton_qu2_one = (RadioButton) findViewById(R.id.redio_botton_qu2_one);
         redio_botton_qu3_one = (RadioButton) findViewById(R.id.redio_botton_qu3_one);
-
         number_six = (RadioGroup) findViewById(R.id.number_six);
         redio_botton_qu1_six = (RadioButton) findViewById(R.id.redio_botton_qu1_six);
         redio_botton_qu2_six = (RadioButton) findViewById(R.id.redio_botton_qu2_six);
