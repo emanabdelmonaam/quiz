@@ -33,26 +33,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        resultNumberSubmited = false;
+       // resultNumberSubmited = false;
+        //resultNumberSubmited = true;
         score = 0;
         again(resultNumberSubmited);
-
     }
 
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-
         score = savedInstanceState.getInt(result_Number_Submited);
         again(resultNumberSubmited);
-
-     }
+    }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putInt(result_Number_Submited, score);
         super.onSaveInstanceState(savedInstanceState);
-
     }
 
     public void finalScore(boolean flag) {
@@ -78,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         redio_botton_qu3_two.setChecked(false);
 
         ///////answer RadioButton two
-
         RadioButton checkedRadioButton2 = (RadioButton) findViewById(R.id.redio_botton_qu3_one);
         boolean hascheckedRadioButton2 = checkedRadioButton2.isChecked();
 
@@ -268,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //send mail
+        //send the resolt to my mail
         Sendtomyemail = (Button) findViewById(R.id.button_send_to_my_email);
         Sendtomyemail.setOnClickListener(new View.OnClickListener() {
 
